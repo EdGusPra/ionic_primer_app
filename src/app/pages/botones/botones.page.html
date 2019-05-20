@@ -1,0 +1,48 @@
+<ion-header no-border>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button  defaultHref="/">
+      </ion-back-button>
+    </ion-buttons>
+      <ion-title>Botones</ion-title>
+    <ion-buttons slot="end">
+      <ion-button color="primary">
+        <ion-icon name="heart">
+        </ion-icon>
+      </ion-button>
+      <ion-button color="secondary">
+        <ion-icon name="star">
+        </ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+
+  <ion-button expand="full" size="small">Small</ion-button>
+  <ion-button expand="full" >Default</ion-button>
+  <ion-button expand="full" size="large">Large</ion-button>
+
+  <ion-button color="secondary" expand="full" routerLink="/avatar">Anchor</ion-button>
+
+  <ion-row>
+    <ion-col>
+     <ion-button color="secondary" expand="full" routerLink="/alert">Alert</ion-button>
+     </ion-col> 
+    <ion-col>
+      <ion-button color="secondary" expand="full" routerLink="/avatar">Avatar</ion-button>
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col>
+     <ion-button fill="outline" color="dark" expand="full" routerLink="/alert">Alert</ion-button>
+     </ion-col> 
+    <ion-col>
+      <ion-button fill="clear" color="secondary" expand="full" routerLink="/avatar">Avatar</ion-button>
+    </ion-col>
+  <ion-col>
+      <ion-button fill="solid" color="secondary" expand="full" routerLink="/">Inicio</ion-button>
+    </ion-col>
+  </ion-row>
+</ion-content>

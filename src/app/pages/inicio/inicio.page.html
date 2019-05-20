@@ -4,10 +4,9 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-
-  <ion-list *ngFor="let compo of componentes">
-    <ion-item  
+<ion-content >
+  <ion-list color="dark" *ngFor="let compo of componentes">
+    <ion-item color="dark"
               [routerLink]="compo.redirecto" detail >
               <ion-icon [name]="compo.icon" slot="start"></ion-icon>
       <ion-label text-capitalize>
